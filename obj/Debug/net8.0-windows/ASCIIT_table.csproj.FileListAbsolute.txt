@@ -1,0 +1,16 @@
+D:\for work\temp\workshorp\PC\ASCIIT_table\bin\Debug\net8.0-windows\ASCIIT_table.exe
+D:\for work\temp\workshorp\PC\ASCIIT_table\bin\Debug\net8.0-windows\ASCIIT_table.deps.json
+D:\for work\temp\workshorp\PC\ASCIIT_table\bin\Debug\net8.0-windows\ASCIIT_table.runtimeconfig.json
+D:\for work\temp\workshorp\PC\ASCIIT_table\bin\Debug\net8.0-windows\ASCIIT_table.dll
+D:\for work\temp\workshorp\PC\ASCIIT_table\bin\Debug\net8.0-windows\ASCIIT_table.pdb
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.Form1.resources
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.csproj.GenerateResource.cache
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.GeneratedMSBuildEditorConfig.editorconfig
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.AssemblyInfoInputs.cache
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.AssemblyInfo.cs
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.csproj.CoreCompileInputs.cache
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.dll
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\refint\ASCIIT_table.dll
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.pdb
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ASCIIT_table.genruntimeconfig.cache
+D:\for work\temp\workshorp\PC\ASCIIT_table\obj\Debug\net8.0-windows\ref\ASCIIT_table.dll
