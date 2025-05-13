@@ -1,4 +1,5 @@
 using System;
+using System.Text;
 using System.Windows.Forms; // 確保引用 System.Windows.Forms
 
 
@@ -38,7 +39,6 @@ namespace ASCIIT_table
                 return character.ToString();
             }
         }
-
 
 
         private void PopulateAsciiTableGrouped()
@@ -94,7 +94,23 @@ namespace ASCIIT_table
             // (可選) 自動調整欄寬，但對於這麼多欄位可能效果不佳，手動設定較好
             // listViewAscii.AutoResizeColumns(ColumnHeaderAutoResizeStyle.HeaderSize);
         }
+        private void ButTran_Click(object sender, EventArgs e)
+        {
+            string asciiInput = ASCII_TextBox.Text;
+            if (string.IsNullOrEmpty(asciiInput))
+            {
+                MessageBox.Show("請輸入 ASCII 字串", "提示", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
 
+            StringBuilder hexBuilder = new StringBuilder();
+            foreach (char c in asciiInput)
+            {
+                hexBuilder.AppendFormat("{0:X2} ", (int)c);
+            }
+
+            textBox1.Text = hexBuilder.ToString().Trim();
+        }
     }
 #if ascii_list
         private void PopulateAsciiTable()

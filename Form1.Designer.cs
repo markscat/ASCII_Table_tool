@@ -48,11 +48,11 @@
             TabControl1 = new TabControl();
             tabPage1 = new TabPage();
             ASCII2HEX = new TabPage();
+            label1 = new Label();
+            textBox1 = new TextBox();
+            ButTran = new Button();
             Lable1 = new Label();
             ASCII_TextBox = new TextBox();
-            ButTran = new Button();
-            textBox1 = new TextBox();
-            label1 = new Label();
             TabControl1.SuspendLayout();
             tabPage1.SuspendLayout();
             ASCII2HEX.SuspendLayout();
@@ -168,10 +168,38 @@
             ASCII2HEX.Location = new Point(4, 24);
             ASCII2HEX.Name = "ASCII2HEX";
             ASCII2HEX.Padding = new Padding(3);
-            ASCII2HEX.Size = new Size(1084, 550);
+            ASCII2HEX.Size = new Size(1074, 603);
             ASCII2HEX.TabIndex = 1;
             ASCII2HEX.Text = "ASCII to HEX";
             ASCII2HEX.UseVisualStyleBackColor = true;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(15, 109);
+            label1.Name = "label1";
+            label1.Size = new Size(31, 15);
+            label1.TabIndex = 4;
+            label1.Text = "HEX";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(63, 92);
+            textBox1.Multiline = true;
+            textBox1.Name = "textBox1";
+            textBox1.ReadOnly = true;
+            textBox1.Size = new Size(476, 264);
+            textBox1.TabIndex = 3;
+            // 
+            // ButTran
+            // 
+            ButTran.Location = new Point(545, 35);
+            ButTran.Name = "ButTran";
+            ButTran.Size = new Size(112, 23);
+            ButTran.TabIndex = 2;
+            ButTran.Text = "ASCII to HEX";
+            ButTran.UseVisualStyleBackColor = true;
+            ButTran.Click += ButTran_Click;
             // 
             // Lable1
             // 
@@ -188,33 +216,6 @@
             ASCII_TextBox.Name = "ASCII_TextBox";
             ASCII_TextBox.Size = new Size(476, 23);
             ASCII_TextBox.TabIndex = 0;
-            // 
-            // ButTran
-            // 
-            ButTran.Location = new Point(545, 35);
-            ButTran.Name = "ButTran";
-            ButTran.Size = new Size(112, 23);
-            ButTran.TabIndex = 2;
-            ButTran.Text = "ASCII to HEX";
-            ButTran.UseVisualStyleBackColor = true;
-            // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(63, 92);
-            textBox1.Multiline = true;
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(476, 264);
-            textBox1.TabIndex = 3;
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(15, 109);
-            label1.Name = "label1";
-            label1.Size = new Size(31, 15);
-            label1.TabIndex = 4;
-            label1.Text = "HEX";
             // 
             // Form1
             // 
